@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "05f98979-14b3-4769-8329-de1a746a231f",
+		"name": "ASP.NET Core Web API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Value (Get)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=utf-8"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/api/values",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Value Incremental (Get)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=utf-8"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/api/values",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Value (Post)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=utf-8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\"abc\""
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/values",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Value (Put)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=utf-8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\"abc\""
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/values/123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Value (Delete)",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=utf-8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/values/123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values",
+						"123"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
